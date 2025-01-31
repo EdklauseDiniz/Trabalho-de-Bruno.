@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<form onsubmit="teste(); return false;">-->
+    <form method="get"></form>
+        <input type="text" name="nome" id="nome"><br>
+        <input type="password" name="senha" id="senha"><br>
+        <button type="submit" onclick="teste()">Enviar</button>
+    </form>
+
+    <script>
+        function teste() {
+            var nome = document.getElementById("nome").value;
+            var senha = document.getElementById("senha").value;
+
+            if (nome == "Vini_Delicia" && senha == "d4qébaum") {
+                window.location.href = "https://www.youtube.com/"; 
+            } else {
+                alert("Nome ou senha incorretos!");
+            }
+        }
+    </script>
+</body>
+</html>
