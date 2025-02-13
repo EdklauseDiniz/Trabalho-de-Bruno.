@@ -1,0 +1,58 @@
+.botao {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin: 10px;
+}
+
+.botao-proximo {
+    text-align: right;
+}
+
+.botao-voltar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 50px;
+    
+}
+
+.titulo-nova-rota {
+    background: linear-gradient(145deg, #4b0082, #2d0056); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 230px; 
+    font-weight: bold;
+    text-shadow: 5px 5px 15px rgba(36, 34, 34, 0.7); 
+    transition: 0.3s ease-in-out;
+}
+
+.titulo-nova-rota:hover {
+    transform: scale(1.1); 
+}
+
+.titulo {
+    background: linear-gradient(150deg, rgb(106,90,205), purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.titulo:hover {
+    transform: scale(1.1); 
+    text-shadow: 5px 5px 15px rgba(136, 0, 255, 0.7); 
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: justify;
+    line-height: 1.6; 
+    margin: 10px;
+}
+
