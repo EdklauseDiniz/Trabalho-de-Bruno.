@@ -1,10 +1,26 @@
+.Titulo {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 30px;   
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
 .titulo-nova-rota {
     background: linear-gradient(145deg, #4b0082, #2d0056); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     font-size: 230px; 
     font-weight: bold;
-    text-shadow: 5px 5px 15px rgba(36, 34, 34, 0.7); 
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); 
     transition: 0.3s ease-in-out;
 }
 
@@ -12,7 +28,6 @@
 .titulo-nova-rota:hover {
     transform: scale(1.1); 
 }
-
 
 .botao-iniciar {
     background: linear-gradient(145deg, #9500ff, #290848); 
@@ -60,7 +75,7 @@
 
 
 .titulo {
-    background: linear-gradient(150deg, rgb(106,90,205)
+    background: linear-gradient(145deg, rgb(106,90,205)
     , purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
