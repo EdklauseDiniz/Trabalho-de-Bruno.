@@ -35,7 +35,7 @@
 
 
 .barra-topo {
-    background: linear-gradient(145deg, #000000, #8400ff); 
+    background: linear-gradient(145deg, #000000, #2a044f); 
     padding: 50px 0;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
 
 
 .titulo {
-    background: linear-gradient(145deg, #4b0082, #2d0056);
+    background: linear-gradient(145deg, #000000, #2d0056);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px;
@@ -71,5 +71,5 @@
 
 .titulo:hover {
     transform: scale(1.1); 
-    text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.7); 
+    text-shadow: 5px 5px 15px rgba(136, 0, 255, 0.7); 
 }
