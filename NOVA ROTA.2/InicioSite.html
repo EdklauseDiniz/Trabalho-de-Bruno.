@@ -3,42 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="telainicial (1).css">
-    <body background="Imagen.png">
+    <link rel="stylesheet" href="telainicial.css">
     <title>► NOVA ROTA ◄</title>
-
 </head>
 <body>
 
+    <!-- Barra de navegação -->
     <div class="barra-topo">
-        <a href="#" class="botao"><span class="titulo">Contato</span></a>
+        <a href="contato.html" class="botao"><span class="titulo">Contato</span></a>
         <a href="#" class="botao"><span class="titulo">Sobre o site</span></a>
-        <a href="#" class="botao"><span class="titulo">Termos de uso</span></a>
-        <a href="#" class="botao"><span class="titulo">Suporte</span></a>
+        <a href="termos.html" class="botao"><span class="titulo">Termos de uso</span></a>
+        <a href="suporte.html" class="botao"><span class="titulo">Suporte</span></a>
     </div>
     
+    <!-- Formulário para iniciar a página -->
     <form method="get" onsubmit="teste(); return false;">
         <div class="paragrafo">
-            <div>
-                <p style="font-size: 350px;">
-                    <center>
-                        <h1 class="titulo-nova-rota">► Nova Rota ◄</h1>
-                    </center>                    
-                </p>
-                <p style="font-size: 170px;">
-                    <center>
-                        <button class="botao-iniciar" type="submit">Clique para iniciar a página</button></center>
-                    
-                </p>
-            </div>
+            <h1 class="titulo-nova-rota">► Nova Rota ◄</h1>
+            <center>
+            <button class="botao-iniciar" type="submit">Clique para iniciar a página</button>
+        </center>
         </div>
     </form>
 
+    <canvas id="particles"></canvas>
+    <div class="background"></div>
+
+    <script src="InicioSite.js"></script>
     <script>
         function teste() {
-        
-            window.location.href = "";
+            window.location.href = "outra_pagina.html"; // Defina a URL correta
         }
     </script>
+
 </body>
 </html>
