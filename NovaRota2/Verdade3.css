@@ -1,0 +1,53 @@
+.titulo-nova-rota {
+    background: linear-gradient(145deg, #4b0082, #2d0056); 
+    -webkit-background-clip: text; 
+    padding: 14vh 10px;
+    -webkit-text-fill-color: transparent; 
+    font-size: 80px; 
+    font-weight: bold;
+    text-shadow: 5px 5px 15px rgba(36, 34, 34, 0.7); 
+    transition: 0.3s ease-in-out;
+}
+
+.titulo-nova-rota:hover {
+    transform: scale(1.1); 
+}
+
+.titulo {
+    background: linear-gradient(145deg, rgb(106,90,205)
+    , purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.barra-topo {
+    background: linear-gradient(145deg, #000000, #2a044f); 
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px; 
+    border-bottom: 3px solid rgb(157, 0, 255); 
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    z-index: 1000;
+    border-radius: 30px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+}
+
+

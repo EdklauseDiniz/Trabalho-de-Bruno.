@@ -1,0 +1,13 @@
+.contatinho {
+    background: linear-gradient(145deg, #ffffff, #9900ff); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 100px; 
+    font-weight: bold;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); 
+    transition: 0.3s ease-in-out;
+}
+
+.contatinho:hover {
+    transform: scale(1.1); 
+}
