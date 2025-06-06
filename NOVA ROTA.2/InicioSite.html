@@ -13,28 +13,28 @@
         <a href="contato.html" class="botao"><span class="titulo">Contato</span></a>
         <a href="SobreST.html" class="botao"><span class="titulo">Sobre o site</span></a>
         <a href="termos.html" class="botao"><span class="titulo">Termos de uso</span></a>
-        <a href="suporte.html" class="botao"><span class="titulo">Suporte</span></a>
     </div>
     
-    <!-- Formulário para iniciar a página -->
-    <form method="get" onsubmit="teste(); return false;">
-        <div class="paragrafo">
-            <h1 class="titulo-nova-rota">► Nova Rota ◄</h1>
-            <center>
-            <button class="botao-iniciar" type="submit">iniciar pagina</button>
+   <form method="get" onsubmit="return teste();">
+    <div class="paragrafo">
+        <h1 class="titulo-nova-rota">► Nova Rota ◄</h1>
+        <center>
+            <button type="submit" class="botao-iniciar">Iniciar página</button>
         </center>
-        </div>
-    </form>
+    </div>
+</form>
 
-    <canvas id="particles"></canvas>
-    <div class="background"></div>
 
-    <script src="InicioSite.js"></script>
-    <script>
-        function teste() {
-            window.location.href = "outra_pagina.html"; 
-        }
-    </script>
+<div class="background"></div>
+
+<script src="InicioSite.js"></script>
+<script>
+    function teste() {
+        window.location.href = "Pagina.html"; 
+        return false; // impede envio do formulário
+    }
+</script>
+
 
 </body>
 </html>
