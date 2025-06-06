@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #000 50%, #9900ff 100%);
+}
+
+.titulo-SbST {
+    font-size: 80px;
+    text-shadow: 5px 5px 15px rgba(89, 12, 198, 0.7);
+    background: linear-gradient(90deg, #000, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
+    transition: 0.3s ease-in-out;
+}
+
+.Conteudo {
+font-size: 80px;
+    text-shadow: 5px 5px 15px rgba(35, 24, 83, 0.7);
+    background: linear-gradient(90deg, #7300ff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
+    transition: 0.3s ease-in-out;
+
+}
