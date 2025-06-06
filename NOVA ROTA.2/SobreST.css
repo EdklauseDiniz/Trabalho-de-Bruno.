@@ -24,3 +24,12 @@ font-size: 80px;
     transition: 0.3s ease-in-out;
 
 }
+
+.BtVolt {
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgba(48, 33, 146, 0.7);
+    background: linear-gradient(90deg, #000, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
