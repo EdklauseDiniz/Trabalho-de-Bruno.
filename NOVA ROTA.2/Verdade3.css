@@ -1,10 +1,10 @@
 .titulo-nova-rota {
-    background: linear-gradient(145deg, #4b0082, #2d0056); 
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    font-size: 80px; 
-    font-weight: bold;
-    text-shadow: 5px 5px 15px rgba(36, 34, 34, 0.7); 
+font-size: 80px;
+    text-shadow: 5px 5px 15px rgba(96, 12, 198, 0.7);
+    background: linear-gradient(90deg, #000, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
     transition: 0.3s ease-in-out;
 }
 
@@ -13,14 +13,29 @@
     transform: scale(1.1); 
 }
 
-.text {
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 25px;
-    text-align: justify;
-    line-height: 1.6; 
-    margin: 0; 
-    padding: 0; 
+.BtVolt {
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgba(48, 33, 146, 0.7);
+    background: linear-gradient(90deg, #000, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 
+.text {
+font-size: 40px;
+text-shadow: 5px 5px 15px rgba(89, 0, 255, 0.7);
+background: linear-gradient(90deg, #000, #9900ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at center, #9900ff 0%, #9900ff 10%, #000 50%);
+}
