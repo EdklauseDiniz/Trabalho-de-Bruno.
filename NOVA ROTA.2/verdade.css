@@ -1,0 +1,28 @@
+.contatinho {
+     font-size: 100px;
+    text-shadow: 5px 5px 15px rgba(70, 25, 125, 0.7);
+    background: linear-gradient(130deg, #4c1273, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.contatinho:hover {
+    transform: scale(1.1); 
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #000 50%, #9900ff 100%);
+}
+
+.BtVolt {
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgba(96, 12, 198, 0.7);
+    background: linear-gradient(90deg, #000, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
